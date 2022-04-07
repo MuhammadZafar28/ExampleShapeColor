@@ -14,14 +14,14 @@ public class DriverClass {
     
 	public static void main(String[] args) {
 	
-		Shape square = new Triangle(new BlueColor());
-		String blueSquare = square.draw();
+		Shape triangle = new Triangle(new BlueColor());
+		String blueSquare = triangle.draw();
 		System.out.println(blueSquare);
 		
 		System.out.println("============================================");
 		
-		Shape shape =  new Pentagon(new RedColor());
-		String redRectangle = shape.draw();
+		Shape pentagon =  new Pentagon(new RedColor());
+		String redRectangle = pentagon.draw();
 		System.out.println(redRectangle);
 	}
  
